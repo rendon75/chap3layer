@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Repository", "ASPPatterns.Chap3.Layered.Repository\ASPPatterns.Chap3.Layered.Repository.csproj", "{D72E4ECA-00B1-435A-A2D5-AE30F923A988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Model", "ASPPatterns.Chap3.Layered.Model\ASPPatterns.Chap3.Layered.Model.csproj", "{307F75A0-496E-4548-8AB9-FDCEDCC552D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Service", "ASPPatterns.Chap3.Layered.Service\ASPPatterns.Chap3.Layered.Service.csproj", "{2CC82EE4-7003-45A0-B059-EC5C1E7A6188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Presentation", "ASPPatterns.Chap3.Layered.Presentation\ASPPatterns.Chap3.Layered.Presentation.csproj", "{D972F2EA-3ABF-40B9-8C01-18E5E5F7D1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.WebUI", "ASPPatterns.Chap3.Layered.WebUI\ASPPatterns.Chap3.Layered.WebUI.csproj", "{3E76AB32-FE42-40E0-A859-3744537DE6F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Data Access Layer", "1. Data Access Layer", "{D80B1C60-F724-46E5-8BD1-995E79AA0A47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Logic Layer", "2. Business Logic Layer", "{8465B309-AA56-49A5-8AF3-27D4B580152A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Layer", "3. Service Layer", "{5ED0AC2C-4CE7-46E8-9FEF-E97ACE06C1FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation Layer", "4. Presentation Layer", "{81B63641-DFFA-4DD7-84E5-BBCD37B18D4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. User Experience Layer", "5. User Experience Layer", "{0BAE353A-3382-4F4F-A61A-37A132F6AC5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72E4ECA-00B1-435A-A2D5-AE30F923A988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72E4ECA-00B1-435A-A2D5-AE30F923A988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72E4ECA-00B1-435A-A2D5-AE30F923A988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72E4ECA-00B1-435A-A2D5-AE30F923A988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307F75A0-496E-4548-8AB9-FDCEDCC552D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307F75A0-496E-4548-8AB9-FDCEDCC552D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307F75A0-496E-4548-8AB9-FDCEDCC552D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307F75A0-496E-4548-8AB9-FDCEDCC552D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC82EE4-7003-45A0-B059-EC5C1E7A6188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC82EE4-7003-45A0-B059-EC5C1E7A6188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC82EE4-7003-45A0-B059-EC5C1E7A6188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC82EE4-7003-45A0-B059-EC5C1E7A6188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D972F2EA-3ABF-40B9-8C01-18E5E5F7D1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D972F2EA-3ABF-40B9-8C01-18E5E5F7D1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D972F2EA-3ABF-40B9-8C01-18E5E5F7D1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D972F2EA-3ABF-40B9-8C01-18E5E5F7D1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E76AB32-FE42-40E0-A859-3744537DE6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E76AB32-FE42-40E0-A859-3744537DE6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E76AB32-FE42-40E0-A859-3744537DE6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E76AB32-FE42-40E0-A859-3744537DE6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D72E4ECA-00B1-435A-A2D5-AE30F923A988} = {D80B1C60-F724-46E5-8BD1-995E79AA0A47}
+		{307F75A0-496E-4548-8AB9-FDCEDCC552D4} = {8465B309-AA56-49A5-8AF3-27D4B580152A}
+		{2CC82EE4-7003-45A0-B059-EC5C1E7A6188} = {5ED0AC2C-4CE7-46E8-9FEF-E97ACE06C1FD}
+		{D972F2EA-3ABF-40B9-8C01-18E5E5F7D1F3} = {81B63641-DFFA-4DD7-84E5-BBCD37B18D4F}
+		{3E76AB32-FE42-40E0-A859-3744537DE6F7} = {0BAE353A-3382-4F4F-A61A-37A132F6AC5B}
+	EndGlobalSection
+EndGlobal
